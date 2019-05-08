@@ -53,7 +53,8 @@ An account at Software AG Cloud webMethods.io (if you do not have an account yet
 
 #### Integration Steps
 
-1. Create the Workflow to Send a SIGNL4 Alert  
+1. Create the Workflow to Send a SIGNL4 Alert
+
 In the webMethods.io console you can create a new workflow. In our case we have Wrike as a trigger. But of course you can use any trigger appropriate for you.
 
 ![webMethods Alert](webmethods-alert.png)
@@ -66,7 +67,8 @@ In the Webhook you configure the URL of the inbound SIGNL4 webhook including tea
 
 Now you can test it and as a result you should get a SIGNL4 alert for each new task you create in Write.
 
-2. Create the Workflow to Handle SIGNL4 Acknowledgements  
+2. Create the Workflow to Handle SIGNL4 Acknowledgements
+
 When a team member acknowledges the alert we want to delete (for the sake of simplicity) the task in Wrike.
 
 Therefore we create a second workflow in webMethods.io.
