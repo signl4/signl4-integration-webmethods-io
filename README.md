@@ -80,7 +80,9 @@ The trigger is a Webhook and the URL is the one you would need to specify in you
 In our case we just need the statusCode and the externalID.
 
 So, the body looks like follow:
+```
 {"alert":{"statusCode":0, "externalID":"0000"}}
+```
 
 ![Acknowledgement Webhook](webmethods-acknowledgement-webhook.png)
 
